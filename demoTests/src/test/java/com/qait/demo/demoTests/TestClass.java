@@ -1,17 +1,14 @@
 package com.qait.demo.demoTests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
 
 public class TestClass {
 	
 	@Test
-	public void step01(){
-		Assert.assertEquals("hello", "hello");
+	public void test_1(){
+		Assert.assertEquals("Hello", "Hellos");
 	}
-	@Test
-	public void step02(){
-		Assert.assertEquals("hello", "hellqqqq");
-	}
+	
 }
