@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.qait.demo.demoTests.TestClass
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.24 sec <<< FAILURE!
+test_1(com.qait.demo.demoTests.TestClass)  Time elapsed: 0.012 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...l...> but was:<......>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.qait.demo.demoTests.TestClass.test_1(TestClass.java:11)
+
